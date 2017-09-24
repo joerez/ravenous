@@ -1,6 +1,8 @@
 import React from 'react';
 import './Business.css';
 
+
+
 class Business extends React.Component {
   render() {
     return (
@@ -27,7 +29,3 @@ class Business extends React.Component {
 }
 
 export default Business;
-
-
-// WEBPACK FOOTER //
-// ./src/components/Business/Business.js

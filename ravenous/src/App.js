@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
+import logo from './logo.svg';
 import './App.css';
+import BusinessList from './components/BusinessList/BusinessList.js';
+import SearchBar from './components/SearchBar/SearchBar.js';
 
-import BusinessList from '../BusinessList/BusinessList';
-import SearchBar from '../SearchBar/SearchBar';
 
 const business = {
   imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
@@ -38,7 +39,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-
-// WEBPACK FOOTER //
-// ./src/components/App/App.js
